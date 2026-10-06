@@ -12,7 +12,6 @@
             line-height: 1.6;
         }
 
-        /* Navbar */
         nav {
             position: sticky;
             top: 0;
@@ -47,7 +46,7 @@
             color: #38bdf8;
         }
 
-        /* Hero */
+  
         .hero {
             min-height: 90vh;
             display: flex;
@@ -92,7 +91,7 @@
             transform: translateY(-2px);
         }
 
-        /* Sections */
+
         section {
             padding: 80px 8%;
         }
@@ -104,7 +103,7 @@
             color: #38bdf8;
         }
 
-        /* About */
+     
         .about {
             max-width: 850px;
             margin: auto;
@@ -113,12 +112,12 @@
             font-size: 18px;
         }
 
-        /* Skills */
+
         .skills-container {
             max-width: 900px;
             margin: auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+ 
             gap: 20px;
         }
 
@@ -136,10 +135,9 @@
             border-color: #38bdf8;
         }
 
-        /* Projects */
         .projects-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        
             gap: 25px;
         }
 
@@ -171,7 +169,6 @@
             text-decoration: none;
         }
 
-        /* Contact */
         .contact {
             text-align: center;
         }
@@ -191,7 +188,6 @@
             text-decoration: none;
         }
 
-        /* Footer */
         footer {
             text-align: center;
             padding: 25px;
@@ -199,7 +195,6 @@
             color: #94a3b8;
         }
 
-        /* Responsive */
         @media (max-width: 700px) {
             nav {
                 flex-direction: column;
